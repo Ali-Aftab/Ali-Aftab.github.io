@@ -2468,23 +2468,23 @@ fieldset[disabled] .btn-default:hover {
   background-color: #555;
 }
 .btn-primary {
-  color: #fff;
-  background-color: #ff0060;
-  border-color: #ff0060;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-primary.focus,
 .btn-primary:focus {
-  color: #fff;
-  background-color: #cc004d;
-  border-color: #800030;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-primary.active,
 .btn-primary:active,
 .btn-primary:hover,
 .open > .btn-primary.dropdown-toggle {
-  color: #fff;
-  background-color: #cc004d;
-  border-color: #c20049;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-primary.active.focus,
 .btn-primary.active:focus,
@@ -2495,9 +2495,9 @@ fieldset[disabled] .btn-default:hover {
 .open > .btn-primary.dropdown-toggle.focus,
 .open > .btn-primary.dropdown-toggle:focus,
 .open > .btn-primary.dropdown-toggle:hover {
-  color: #fff;
-  background-color: #a8003f;
-  border-color: #800030;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-primary.active,
 .btn-primary:active,
@@ -2513,12 +2513,14 @@ fieldset[disabled] .btn-default:hover {
 fieldset[disabled] .btn-primary.focus,
 fieldset[disabled] .btn-primary:focus,
 fieldset[disabled] .btn-primary:hover {
-  background-color: #ff0060;
-  border-color: #ff0060;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-primary .badge {
-  color: #ff0060;
-  background-color: #fff;
+  color: #1e1e1e;
+  background-color: #f6bf32;
+  border-color: black;
 }
 .btn-success {
   color: #fff;
@@ -4787,7 +4789,7 @@ body.white {
 }
 .card {
   border-radius: 0.25rem;
-  background-color: #fff;
+  background-color: white;
   border: 1px solid rgba(0, 0, 0, 0.125);
   margin-bottom: 3rem;
 }
@@ -4833,11 +4835,6 @@ body.white {
 }
 .btn-primary,
 .btn-primary:hover {
-  background-image: -webkit-linear-gradient(left, #ff6975, #ff0060);
-  background-image: -o-linear-gradient(left, #ff6975 0, #ff0060 100%);
-  background-image: linear-gradient(90deg, #ff6975 0, #ff0060);
-  background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF6975",endColorstr="#FFFF0060",GradientType=1);
 }
 .btn-primary:hover {
   background-position: 50%;
