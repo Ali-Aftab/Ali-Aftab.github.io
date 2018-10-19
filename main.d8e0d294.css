@@ -548,11 +548,11 @@ a.text-danger:hover {
 }
 .bg-primary {
   color: #fff;
-  background-color: #ff0060;
+  background-color: #29292a;
 }
 a.bg-primary:focus,
 a.bg-primary:hover {
-  background-color: #cc004d;
+  background-color: #29292a;
 }
 .bg-success {
   background-color: #87e329;
@@ -4736,11 +4736,11 @@ button.close {
   }
 }
 body {
-  background-image: -webkit-linear-gradient(top, #ff0060, #ff6975);
-  background-image: -o-linear-gradient(top, #ff0060 0, #ff6975 100%);
-  background-image: linear-gradient(180deg, #ff0060 0, #ff6975);
+  background-image: -webkit-linear-gradient(top, #323234, #1e1e1e);
+  background-image: -o-linear-gradient(top, #323234 0, #1e1e1e 100%);
+  background-image: linear-gradient(180deg, #323234 0, #1e1e1e);
   background-repeat: repeat-x;
-  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#FFFF0060",endColorstr="#FFFF6975",GradientType=0);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#323234",endColorstr="#1E1E1E",GradientType=0);
 }
 body.white {
   background-color: #fff;
@@ -4754,7 +4754,7 @@ body.white {
 .white-text-container h4,
 .white-text-container h5,
 .white-text-container p {
-  color: #fff;
+  color: #f6bf32;
 }
 .content-wrapper {
   position: relative;
@@ -4783,7 +4783,7 @@ body.white {
   left: 0;
   right: 0;
   bottom: 30%;
-  box-shadow: inset 0 -40px 60px 10px #ff0060;
+  box-shadow: inset 0 -40px 60px 10px #3233234;
 }
 .card {
   border-radius: 0.25rem;
